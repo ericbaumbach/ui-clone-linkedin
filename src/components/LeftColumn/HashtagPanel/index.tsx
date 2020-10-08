@@ -4,7 +4,9 @@ import Panel from '../../Panel';
 
 import { Container, HashtagIcon } from './styles';
 
-const tags = ['rocketseat', 'next-level', 'node', 'react', 'developer'];
+const tags = [
+  'rocketseat', 'next-level', 'node', 'react', 'developer', 'vue', 'laravel'
+];
 
 const HashtagPanel: React.FC = () => {
   return (
