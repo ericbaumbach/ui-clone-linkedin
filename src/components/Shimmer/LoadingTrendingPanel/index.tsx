@@ -11,19 +11,17 @@ const LoadingTrendingPanel: React.FC = () => {
       <Skeleton className="square-skeleton white" />
 
       <div className="column">
-        <Skeleton className="square-skeleton white" />
-        <Skeleton className="square-skeleton white" />
+        <Skeleton className="row-skeleton white" />
+        <Skeleton className="row-skeleton white" />
       </div>
     </div>
   )
 
   return (
     <Container>
-      <Panel className="no-shadow">
-        <Row />
-        <Row />
-        <Row />
-      </Panel>
+      <Row />
+      <Row />
+      <Row />
     </Container>
   );
 }
